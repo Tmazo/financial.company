@@ -36,6 +36,7 @@ Retornara o nome encontrado através do Id enviado.
 
 #### POST
 Enviar dois campos do header :
-**Installments** -> número de parcelas.
-**ValueInstallments** -> valor da parcela.
+1. **Installments** -> número de parcelas.
+2. **ValueInstallments** -> valor da parcela.
+
 Retornara o valor total.
