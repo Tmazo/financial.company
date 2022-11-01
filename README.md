@@ -7,7 +7,7 @@ Aplicação de finança do tipo WebAPI, utilizando a linguagem de programação 
 3. Possuir o Postman em sua maquina. 
 
 ## Inicio do processo de execução da aplicação
-1 - Copie a aplicação para a sua máquina
+1 - Copie a aplicação para a sua máquina.
 
 ## Executando a aplicação
 No Visual Studio rodar aplicação pela API. Este campo fica ao lado do "Any CPU"
@@ -26,14 +26,16 @@ base path: https://localhost:49158
 
 | Método  	| Recurso                      | Descrição                 	|
 |---------- |:-----------------------------|:--------------------------	|
-| `POST`    | `/financial/calculate        | Realizar calculo total    	|
+| `POST`    | `/financial/calculate`       | Realizar cálculo total    	|
 
 ### Métodos
 
 #### GET
-Enviar o Id de busca através do header
+Enviar o Id de busca através do header.
+Retornara o nome encontrado através do Id enviado.
 
 #### POST
 Enviar dois campos do header :
 **Installments** -> número de parcelas.
 **ValueInstallments** -> valor da parcela.
+Retornara o valor total.
